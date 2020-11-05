@@ -1,0 +1,201 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+.navbar-brand img
+{
+	height: 90px;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#navbar ul li a: hover
+{
+	color: #000000!important;
+}
+.navbar
+{
+	background: #fff; 
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: 'Crimson Text', serif;
+}
+
+.carousel-caption
+{
+
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5
+{
+	color: #E5E5E5;
+	font-size: 42px;
+	font-family: 'Crimson Text', serif;
+	padding-right: 15px;
+	
+
+
+}
+
+#About 
+{
+	padding-top: 50px;
+	padding-bottom: 140px;
+	color: #555;
+	font-family: 'Crimson Text', serif;
+	font-size: 22px;
+
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+	font-size: 22px;
+	
+}
+
+#Experience
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(41, 85, 242)), url(images/experience.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef!important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#experience h1
+{
+	text-align: center;
+	color: #efefef!important;
+	padding-bottom: 10px;
+	font-family: 'Crimson Text', serif; 
+
+}
+#experience h1::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 140px;
+	margin: 20px auto 5px;
+}
+.experience
+{
+	margin-top: 40px;
+}
+.img
+{
+	height: 140px;
+}
+#contact
+{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #fff;
+	font-family: 'Crimson Text', serif; 
+	
+}
+h1{
+	text-align: center;
+	color: #555!important;
+	
+	font-family: 'Crimson Text', serif; 
+}
+h1::after
+{
+	content: '';
+	background: #555;
+	display: block;
+	height: 3px;
+	width: 70px;
+	margin: 20px auto 5px;
+
+}
+.image
+{
+	height: 270px;
+	width: 270px;
+	opacity: 1;
+	display: block;
+	margin: 10px auto;
+	
+}	
+
+#Contact 
+{
+	background: #efefef;
+	padding-top:40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form
+{
+	padding:15px;
+}
+.form-control
+{
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder
+{
+	color: #999 !important;
+}
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa
+{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+#Footer
+{
+	background: #000000;
+	color: #6DFFFF;
+	padding: 12px;
+	font-family: 'Crimson Text', serif; 
+
+}
+
+.fa-heart-o
+{
+	margin: 3px;
+	color:red;
+}
