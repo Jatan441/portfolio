@@ -24,7 +24,7 @@
 	float: right;
 	text-align: left;
 }
-#navbar ul li a: hover
+#navbar ul li a:hover
 {
 	color: #000000!important;
 }
@@ -63,7 +63,7 @@
 }
 
 #About 
-{
+{	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 140px;
 	color: #555;
@@ -77,7 +77,7 @@
 	margin-bottom: 30px;
 }
 .about-content
-{
+{	text-align: left;
 	padding-top: 20px;
 	font-size: 22px;
 	
@@ -93,6 +93,7 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
 #experience h1
 {
 	text-align: center;
@@ -111,6 +112,37 @@
 	margin: 20px auto 5px;
 }
 .experience
+{
+	margin-top: 40px;
+}
+#Projects
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(41, 85, 242)), url(images/experience.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef!important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#projects h1
+{
+	text-align: center;
+	color: #efefef!important;
+	padding-bottom: 10px;
+	font-family: 'Crimson Text', serif; 
+
+}
+#projects h1::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 140px;
+	margin: 20px auto 5px;
+}
+.projects
 {
 	margin-top: 40px;
 }
@@ -161,7 +193,7 @@ h1::after
 }
 .contact-form
 {
-	padding:15px;
+	padding:12px;
 }
 .form-control
 {
@@ -173,10 +205,13 @@ h1::after
 	color: #999 !important;
 }
 .follow
-{
+{	
 	background: #fff;
 	padding: 10px;
-	margin: 15px;
+	margin: 10px;
+	border-radius: 0 !important;
+	border: none !important;
+
 }
 .contact-info .fa
 {
@@ -199,3 +234,165 @@ h1::after
 	margin: 3px;
 	color:red;
 }
+
+.a-color{
+	color: yellow;
+}
+
+.a-color:hover{
+	color: #ffffff;
+}
+
+.arrow1 {
+	animation: slide1 1s ease-in-out infinite;
+	margin-left: 9px;
+  }
+
+  
+
+@keyframes slide1 {
+	0%,
+	100% {
+	  transform: translate(0, 0);
+	}
+  
+	50% {
+	  transform: translate(10px, 0);
+	}
+  }
+
+
+  /*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+#myBtn {
+	display: inline-block;
+	background-color:#0563bb;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 10px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, 
+	  opacity .5s, visibility .5s;
+	/* opacity: 0; */
+	/* visibility: hidden;  */
+	 z-index: 1000; 
+  }
+  #myBtn:after {
+	content: "\f077";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #fff;
+  }
+  #myBtn:hover {
+	cursor: pointer;
+	background-color: #333;
+  }
+  #myBtn:active {
+	background-color: #555;
+  }
+  #myBtn.show {
+	opacity: 1;
+	visibility: visible;
+  }
+
+
+  
+/* Contact */
+
+
+  .error-message {
+	display: none;
+	color: #fff;
+	background: #ed3c0d;
+	text-align: left;
+	padding: 15px;
+	font-weight: 600;
+  }
+  
+.error-message br + br {
+	margin-top: 25px;
+  }
+  
+
+  .sent-message {
+	display: none;
+	color: #fff;
+	background: #18d26e;
+	text-align: center;
+	padding: 15px;
+	font-weight: 600;
+  }
+
+
+  .loading {
+	display: none;
+	background: #fff;
+	text-align: center;
+	padding: 15px;
+  }
+  
+  .loading:before {
+	content: "";
+	display: inline-block;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	margin: 0 10px -6px 0;
+	border: 3px solid #18d26e;
+	border-top-color: #eee;
+	-webkit-animation: animate-loading 1s linear infinite;
+	animation: animate-loading 1s linear infinite;
+  }
+
+  
+  @-webkit-keyframes animate-loading {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  @keyframes animate-loading {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+
+  .set {
+	/* display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-radius: 30px;
+	box-shadow: 0 0 2px #888;
+	padding: 0.5em 0.6em;
+	transition: all 0.3s ease-in-out;
+	float: left; */
+
+
+	font-size: 20px;
+	color: #0563bb;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: #eef7ff;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	transition: all 0.3s ease-in-out;
+  }
+
